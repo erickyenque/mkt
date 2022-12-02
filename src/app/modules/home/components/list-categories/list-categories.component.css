@@ -17,6 +17,12 @@
   width: 60px;
   white-space: initial;
   margin-top: 10px;
+  font-weight: 500;
+}
+
+.item-list-categories a {
+  text-decoration: none;
+  color: var(--primary-freshclub);
 }
 
 .item-list-categories img {

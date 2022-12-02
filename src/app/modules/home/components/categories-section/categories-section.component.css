@@ -2,11 +2,14 @@
 }
 
 .text-description {
+  margin-top: 7px;
   font-size: 10px;
   color: gray;
+  text-align: center;
 }
 
 div > h6 {
-  color: gray;
+  color: rgb(0, 0, 0);
   font-size: 12px;
+  font-weight: 500;
 }

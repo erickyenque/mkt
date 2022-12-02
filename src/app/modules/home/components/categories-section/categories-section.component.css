@@ -1,0 +1,12 @@
+.card-category {
+}
+
+.text-description {
+  font-size: 10px;
+  color: gray;
+}
+
+div > h6 {
+  color: gray;
+  font-size: 12px;
+}

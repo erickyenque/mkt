@@ -1,0 +1,34 @@
+.layout-search {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.search-group {
+  border: 1px solid var(--primary-freshclub);
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+}
+
+.search-group input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.search-group input::placeholder {
+  color: var(--primary-freshclub);
+}
+
+.search-group svg {
+  color: var(--primary-freshclub);
+}

@@ -1,0 +1,25 @@
+.scroll {
+  overflow: auto;
+  padding: 0px 10px;
+}
+.layout-list-categories {
+  white-space: nowrap;
+  text-align: center;
+  padding: 0;
+}
+
+.item-list-categories {
+  display: inline-block;
+  font-size: 9px;
+  text-decoration: none;
+  color: var(--primary-freshclub);
+  text-align: center;
+  width: 60px;
+  white-space: initial;
+  margin-top: 10px;
+}
+
+.item-list-categories img {
+  width: 20px;
+  height: 20px;
+}

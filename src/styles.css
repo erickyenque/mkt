@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --primary-freshclub: #00a131;
+}
+
+.bg-freshclub {
+  background-color: var(--primary-freshclub);
+}

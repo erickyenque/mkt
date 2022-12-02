@@ -1,10 +1,11 @@
 .layout-search {
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 10px;
+  margin: auto;
 }
 
 .search-group {

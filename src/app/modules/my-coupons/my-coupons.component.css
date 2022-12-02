@@ -1,0 +1,17 @@
+.title-coupons {
+  padding-block: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.box-coupons {
+  width: 70%;
+  margin: auto;
+}
+
+.text-coupons {
+  margin-top: 7px;
+  font-size: 15px;
+  color: rgb(110, 110, 110);
+  text-align: center;
+}

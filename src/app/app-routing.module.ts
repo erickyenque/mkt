@@ -8,6 +8,11 @@ const routes: Routes = [
         loadChildren: () => 
             import('./modules/home/home.module').then(m => m.HomeModule)
     },
+    { 
+        path: 'perfil', 
+        loadChildren: () => 
+            import('./modules/perfil/perfil.module').then(m => m.PerfilModule)
+    },
     { path: 'category', component: ListCategoryComponent}
 ];
   

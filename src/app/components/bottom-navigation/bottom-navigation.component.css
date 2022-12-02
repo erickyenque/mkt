@@ -1,0 +1,26 @@
+.layout-bottom-navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.item-bottom-navigation {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.item-bottom-navigation span {
+  font-size: 10px;
+}

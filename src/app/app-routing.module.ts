@@ -9,6 +9,11 @@ const routes: Routes = [
       import('./modules/home/home.module').then(m => m.HomeModule)
   },
   { 
+    path: 'my-coupons', 
+    loadChildren: () => 
+      import('./modules/my-coupons/my-coupons.module').then(m => m.MyCouponsModule)
+  },
+  { 
     path: 'perfil', 
     loadChildren: () => 
       import('./modules/perfil/perfil.module').then(m => m.PerfilModule)

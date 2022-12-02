@@ -15,7 +15,7 @@ import { ListCategoryComponent } from './components/list-category/list-category.
     NavbarComponent,
     SidebarComponent,
     BottomNavigationComponent,
-    ListCategoryComponent
+    ListCategoryComponent,
   ],
   imports: [
     RouterModule,

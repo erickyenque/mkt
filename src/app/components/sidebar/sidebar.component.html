@@ -1,33 +1,93 @@
-<div class="offcanvas offcanvas-start bg-freshclub" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Freshclub</h5>
-      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex mt-3" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
+<div
+  class="offcanvas offcanvas-start bg-freshclub"
+  tabindex="-1"
+  id="offcanvasDarkNavbar"
+  aria-labelledby="offcanvasDarkNavbarLabel"
+>
+  <div class="offcanvas-header">
+    <div class="d-flex gap-3 row-perfil">
+      <img class="img-usuario" src="/assets/img/usuario.png" alt="" />
+      <div class="col-nombre">
+        <span class="text-name">Oreana</span>
+        <span class="text-apellido">Vargas</span>
+      </div>
     </div>
   </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle option-perfil"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Mi Perfil
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <span class="infor-perfil">Nombre: </span
+            ><span class="infor-usuario">Oreana Vargas</span>
+          </li>
+          <li>
+            <span class="infor-perfil">DNI: </span
+            ><span class="infor-usuario">71625968</span>
+          </li>
+          <li>
+            <span class="infor-perfil">Fecha de Nacimiento:</span
+            ><span class="infor-usuario">11/11/1998</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="offcanvas-body">
+    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle option-sidebar"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Preferencias
+        </a>
+        <ul class="dropdown-menu">
+          <li><input type="checkbox" />Amo la moda</li>
+          <li><input type="checkbox" />Vivo para viajar</li>
+          <li><input type="checkbox" />Apasionada por la comida</li>
+          <li><input type="checkbox" /> Soy petiover</li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle option-sidebar"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Categorias
+        </a>
+
+        <ul class="dropdown-menu">
+          <li>
+            <a href="" class="btn">Restaurantes</a>
+          </li>
+          <li>
+            <a href="" class="btn">Moda</a>
+          </li>
+          <li>
+            <a href="" class="btn">Experiencias</a>
+          </li>
+          <li>
+            <a href="" class="btn">Educación</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>

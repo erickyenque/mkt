@@ -1,3 +1,42 @@
 .offcanvas {
   max-width: 80%;
 }
+.offcanvas-body {
+  background-color: white;
+}
+.row-perfil {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.img-usuario {
+  width: 80px;
+}
+.col-nombre {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.text-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+}
+.text-apellido {
+  color: white;
+  font-size: 18px;
+  font-weight: 550;
+}
+.option-perfil {
+  background-color: white;
+  color: #00a131;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+.option-sidebar {
+  background-color: #d6f0de;
+  color: #00a131;
+  padding: 7px;
+  margin-bottom: 10px;
+}

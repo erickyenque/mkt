@@ -4,43 +4,34 @@
   id="offcanvasDarkNavbar"
   aria-labelledby="offcanvasDarkNavbarLabel"
 >
-  <div class="offcanvas-header">
+  <div class="offcanvas-header d-flex flex-column mt-5">
     <div class="d-flex gap-3 row-perfil">
-      <img class="img-usuario" src="/assets/img/usuario.png" alt="" />
+      <!--<img class="img-usuario" src="/assets/img/usuario.png" alt="" />-->
+      <i class="fa-solid fa-user icon-user"></i>
       <div class="col-nombre">
         <span class="text-name">Oreana</span>
         <span class="text-apellido">Vargas</span>
       </div>
     </div>
+    <div class="option-perfil w-100" (click)="togglePerfil = !togglePerfil">
+      <span>Mi Perfil</span>
+    </div>
   </div>
   <div class="offcanvas-body">
-    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle option-perfil"
-          href="#"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Mi Perfil
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <span class="infor-perfil">Nombre: </span
-            ><span class="infor-usuario">Oreana Vargas</span>
-          </li>
-          <li>
-            <span class="infor-perfil">DNI: </span
-            ><span class="infor-usuario">71625968</span>
-          </li>
-          <li>
-            <span class="infor-perfil">Fecha de Nacimiento:</span
-            ><span class="infor-usuario">11/11/1998</span>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <div class="user-info" *ngIf="togglePerfil">
+      <div class="group-info d-flex gap-3">
+        <label for="">Nombre:</label>
+        <span>Oreana Vargas</span>
+      </div>
+      <div class="group-info d-flex gap-3">
+        <label for="">DNI:</label>
+        <span>Oreana Vargas</span>
+      </div>
+      <div class="group-info d-flex gap-3">
+        <label for="">Fecha de Nacimiento:</label>
+        <span>Oreana Vargas</span>
+      </div>
+    </div>
   </div>
 
   <div class="offcanvas-body">

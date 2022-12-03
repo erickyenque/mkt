@@ -31,12 +31,21 @@
 .option-perfil {
   background-color: white;
   color: #00a131;
-  padding: 7px;
   margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 .option-sidebar {
   background-color: #d6f0de;
   color: #00a131;
   padding: 7px;
   margin-bottom: 10px;
+}
+
+.icon-user {
+  font-size: 80px;
+  color: white;
+}
+.user-info {
+  font-size: 12px;
 }
